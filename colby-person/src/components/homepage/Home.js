@@ -20,6 +20,8 @@ function Home() {
             Check out my Projects, Resume, Education, and Bio to learn more about me and what I have to offer!
         </div>
 
+          
+
       </div>
 
         

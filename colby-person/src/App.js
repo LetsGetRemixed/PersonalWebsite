@@ -6,6 +6,8 @@ import Projects from './components/Projects/Projects';
 import Resume from './components/Resume/Resume';
 import Bio from './components/Bio/Bio';
 import Education from './components/Education/Education';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 
 function App() {

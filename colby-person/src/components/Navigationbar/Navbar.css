@@ -1,14 +1,14 @@
 .navbar {
     background: linear-gradient(to right, #5b0aa1, #38026a); /* Purple gradient background */
     color: white;
-    padding: 20px 20px; /* Increase padding to make the bar bigger */
+    padding: 10px 0; /* Adjust padding for a smaller bar */
     position: fixed;
-    width: 100%;
-    top: 0;
-    margin-top: -20px;
+    width: 60%; /* Reduce the width to make the navbar smaller */
+    top: 0; left: 20%; /* Center the navbar */
+    border-radius: 30px; /* Adjust for a rounded look */
     z-index: 1000;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1),
-            0 8px 10px rgba(255,255,255,0.7); /* Neon glow effect */;
+                0 8px 10px rgba(255,255,255,0.7); /* Neon glow effect */
 }
 
 .navbar-scroll {
@@ -20,7 +20,7 @@
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Ensure evenly spaced links */
 }
 
 .nav-links li {
@@ -31,12 +31,13 @@
 
 .nav-links a {
     display: block; /* Makes the anchor cover the skewed li */
-    padding: 20px 60px; /* Padding to increase the clickable area */
+    padding: 10px 40px; /* Padding to increase the clickable area */
     position:top;
     background: linear-gradient(to right, #9139e8, #4d0b8f); /* Semi-transparent background */
     color: white;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 600;
    /* Reverse skew to normalize the text */
     border-radius: 0px; /* Slight rounding of corners if desired */
     transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
