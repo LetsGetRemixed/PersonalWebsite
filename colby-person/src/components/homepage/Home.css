@@ -74,7 +74,7 @@
                0 0 70px #ad07b6, /* Larger pink glow */
                0 0 80px #ff00de, /* Even larger pink glow */
                0 0 100px #cc07f4; /* Maximum pink glow */
-  position: fixed; /* Fixed at the bottom */
+  position:fixed; /* Fixed at the bottom */
   width: 100%; /* Full width */
   bottom: 50px; /* 50 pixels from the bottom */
   left: 0; /* Align left edge */

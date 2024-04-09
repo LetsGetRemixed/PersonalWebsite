@@ -15,11 +15,14 @@ function Home() {
               <div className="ethics">Strong Passion for Coding.</div>
               <div className="ethics">Strong Work Ethic.</div>
           </div>
-      </div>
 
-        <div className="glowing-text">
+          <div className="glowing-text">
             Check out my Projects, Resume, Education, and Bio to learn more about me and what I have to offer!
         </div>
+
+      </div>
+
+        
 
 
     </div>
