@@ -1,10 +1,89 @@
-.welcome-container {
-    display: flex;
+
+.main-container {
+  display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;  /* This makes the div take the full height of the viewport */
-    font-size: 50px;  /* Large font size for the welcome message */
-    font-family: Arial, sans-serif;  /* Styling the font */
-    color: #333;  /* Color of the text */
-  }
+    height: 100vh; /* Full viewport height */
+    padding-top: 10px; /* Adjust as needed to avoid navbar overlap */
+    padding-left: 20px;
+    padding-right: 20px;
+  background: linear-gradient(to bottom, #000000, #2e153e);
+}
+
+.profile-pic {
+  width: 250px; /* Adjust size as needed */
+  height: 250px; /* Adjust size as needed */
+  border-radius: 50%; /* Fully rounded */
+  object-fit: cover;
+  border: 4px solid white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30px; /* Space between the image and text */
+  max-width: 600px;
+}
+
+.name {
+  font-size: 42px; /* Large, bold text for the name */
+    font-weight: 900;
+    background: linear-gradient(to right, #530a94, #db9bf7); /* Example gradient from blue to teal */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Makes the text color transparent, showing the background */
+    display: inline-block; /* Required to ensure the gradient covers the text */
+    margin-bottom: 10px; /* Spacing after the name */
+    animation: grow-animation 6s ease-in-out infinite;
+}
+
+.profession {
+  font-size: 24px; /* Smaller text for the profession */
+  color: #c2c2c2;
+  margin-bottom: 20px; /* Spacing after the profession */
   
+}
+
+@keyframes grow-animation {
+  0%, 100% {
+      transform: scale(1); /* Start and end at normal size */
+  }
+  50% {
+      transform: scale(1.1); /* Grow to 10% larger at the midpoint */
+  }
+}
+
+.ethics {
+  font-size: 16px; /* Size for work ethics sections */
+  color: #b5b4b4;
+  margin-bottom: 5px; /* Spacing between each ethics section */
+  line-height: 1.4;
+  display: inline-block; /* Necessary for transform effects */
+}
+
+.glowing-text {
+  font-size: 24px; /* Big bold text */
+  font-weight: bold; /* Bold text style */
+  text-align: center; /* Center alignment */
+  color: white; /* White text color */
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7), /* Outer light white glow */
+               0 0 20px rgba(255, 255, 255, 0.7), /* More pronounced white glow */
+               0 0 30px rgba(255, 255, 255, 0.7), /* Even more pronounced white glow */
+               0 0 40px #9b0cca, /* Pink glow for a stylish effect */
+               0 0 70px #ad07b6, /* Larger pink glow */
+               0 0 80px #ff00de, /* Even larger pink glow */
+               0 0 100px #cc07f4; /* Maximum pink glow */
+  position: fixed; /* Fixed at the bottom */
+  width: 100%; /* Full width */
+  bottom: 50px; /* 50 pixels from the bottom */
+  left: 0; /* Align left edge */
+}
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
