@@ -1,0 +1,10 @@
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* This makes the div take the full height of the viewport */
+    font-size: 50px;  /* Large font size for the welcome message */
+    font-family: Arial, sans-serif;  /* Styling the font */
+    color: #333;  /* Color of the text */
+  }
+  

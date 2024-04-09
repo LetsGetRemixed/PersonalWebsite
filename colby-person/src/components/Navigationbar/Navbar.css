@@ -1,0 +1,48 @@
+.navbar {
+    background: linear-gradient(to right, #5b0aa1, #38026a); /* Purple gradient background */
+    color: white;
+    padding: 20px 20px; /* Increase padding to make the bar bigger */
+    position: fixed;
+    width: 100%;
+    top: -10;
+    margin-top: -20px;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-scroll {
+    background-color: rgba(106, 48, 147, 0.6); /* Semi-transparent gradient for scrolled state */
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 0px;
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transformation for hover effects */
+    transform: skewX(-18deg); /* Skew horizontally for rhombus shape */
+}
+
+.nav-links a {
+    display: block; /* Makes the anchor cover the skewed li */
+    padding: 20px 60px; /* Padding to increase the clickable area */
+    position:top;
+    background: linear-gradient(to right, #9139e8, #4d0b8f); /* Semi-transparent background */
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+   /* Reverse skew to normalize the text */
+    border-radius: 0px; /* Slight rounding of corners if desired */
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    border-width: 20%;
+}
+
+.nav-links li:hover {
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.75); /* Light up effect on hover */
+    transform:translateY(10px);
+}
