@@ -24,7 +24,19 @@
   flex-direction: column;
   justify-content: center;
   margin-left: 30px; /* Space between the image and text */
-  max-width: 600px;
+  max-width: 800px;
+  
+  
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Horizontally centers the items in the container */
+  align-items: center; /* Vertically centers the items in the container */
+  margin-left: 30px; /* Space between the image and text */
+  max-width: 1000px;
+  
 }
 
 .name {
@@ -87,3 +99,53 @@ body, html {
   overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: left; /* Center align the contact items vertically */
+  width: 320px; /* Set width for contact info area */
+  margin-left:60px;
+  
+}
+
+.contact-text {
+  font-size: 16px;
+  color: #ffffff;
+  display: block;
+  
+}
+
+.contact-link{
+  font-size: 16px;
+  color: #0baefa;
+  display: block;
+  text-decoration: underline;
+  
+
+}
+
+.icon-button {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px; /* Smaller size for the icon container */
+    height: 45px;
+    background: linear-gradient(to right, #530a94, #db9bf7); /* Blue background */
+    color: white;
+    border-radius: 50%;
+    margin-right: 10px; /* Adds space between the icon and the text */
+    
+    box-shadow: 0 0 8px rgba(255, 255, 255, 1);
+}
+
+.icon-button:hover {
+  transform: scale(1.1); /* Enlarges the button on hover */
+  box-shadow: 0 0 15px rgba(255, 255, 255, 1); /* Stronger glow on hover */
+}
+
+.contact-item {
+  display: flex; /* Enables flexbox layout */
+  align-items: center; /* Vertically centers the icon and text */
+  
+  margin-bottom: 10px; /* Adds space below each contact item */
+}
