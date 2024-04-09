@@ -66,6 +66,6 @@ html, body {
     -webkit-text-fill-color: transparent; /* Makes the text color transparent, showing the background */
     display: inline-block; /* Required to ensure the gradient covers the text */
     text-align: center;
-    
+    margin-bottom: -10%;
     animation: float 4s ease-in-out infinite;  /* Smooths the animation transitions */
 }
