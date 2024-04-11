@@ -78,10 +78,10 @@
   font-size: 24px; /* Big bold text */
   font-weight: bold; /* Bold text style */
   text-align: center; /* Center alignment */
-  color: white; /* White text color */
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7), /* Outer light white glow */
-               0 0 20px rgba(255, 255, 255, 0.7), /* More pronounced white glow */
-               0 0 30px rgba(255, 255, 255, 0.7), /* Even more pronounced white glow */
+  color: rgb(236, 236, 236); /* White text color */
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), /* Outer light white glow */
+               0 0 20px rgba(255, 255, 255, 0.4), /* More pronounced white glow */
+               0 0 30px rgba(218, 218, 218, 0.3), /* Even more pronounced white glow */
                0 0 40px #9b0cca, /* Pink glow for a stylish effect */
                0 0 70px #ad07b6, /* Larger pink glow */
                0 0 80px #ff00de, /* Even larger pink glow */
@@ -90,6 +90,9 @@
   width: 100%; /* Full width */
   bottom: 50px; /* 50 pixels from the bottom */
   left: 0; /* Align left edge */
+
+
+  
 }
 
 
