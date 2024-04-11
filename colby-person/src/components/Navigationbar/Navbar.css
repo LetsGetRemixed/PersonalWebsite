@@ -1,10 +1,10 @@
 .navbar {
-    background: linear-gradient(to right, #5b0aa1, #38026a); /* Purple gradient background */
+    background: linear-gradient(to top, #9cbeff , #d09eff); /* Purple gradient background */
     color: white;
     padding: 10px 0; /* Adjust padding for a smaller bar */
     position: fixed;
     width: 60%; /* Reduce the width to make the navbar smaller */
-    top: 0; left: 20%; /* Center the navbar */
+    top: 3%; left: 20%; /* Center the navbar */
     border-radius: 30px; /* Adjust for a rounded look */
     z-index: 1000;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1),
@@ -33,11 +33,11 @@
     display: block; /* Makes the anchor cover the skewed li */
     padding: 10px 40px; /* Padding to increase the clickable area */
     position:top;
-    background: linear-gradient(to right, #9139e8, #4d0b8f); /* Semi-transparent background */
-    color: white;
+    background: linear-gradient(to left, #9cbeff , #d09eff); /* Semi-transparent background */
+    color: rgb(141, 15, 199);
     text-decoration: none;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 1000;
    /* Reverse skew to normalize the text */
     border-radius: 0px; /* Slight rounding of corners if desired */
     transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
