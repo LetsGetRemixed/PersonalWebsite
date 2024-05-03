@@ -6,11 +6,11 @@ body{
 body h2{
     font-family: "Abril Fatface", serif;
     font-weight: 600;
-    color:#031db4;
+    color:#0078f8;
 }
 body p{
     font-family:"PT Sans", sans-serif;
-    color:#000;
+    color:#000000;
     font-size: 20px;
 }
 
@@ -34,7 +34,7 @@ body p{
 
 .project-card {
     border: 2px solid black;
-    padding: 10px;
+    padding: 50px;
     margin: 10px;
     width: 80%;
     box-shadow: 0px 0px 10px #000;
@@ -45,10 +45,19 @@ body p{
 
 .project-image-container {
     margin-right: 20px;
-    width: 50%;
-    height: 400px;
-    overflow: hidden; /* Keeps images from overflowing the div */
+    width: 150%; /* Use 100% to make it flexible */
+    max-width: 600px; /* Upper limit for horizontal images */
+    min-width: 500px;
+    height: 100%; /* Allow container height to adjust */
+    max-height: 600px; /* Upper limit for horizontal images */
+    overflow: hidden;
+    border: 2px solid #000000; /* Blue border, you can change the color and size */
+    border-radius: 10px; /* Optional: Adds rounded corners to the border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow for depth */
+  
 }
+
+
 
 .project-details {
     flex-grow: 1;
@@ -85,7 +94,19 @@ body p{
 /* Slick slider specific styles */
 .slick-slide img {
     width: 100%;
-    height: auto;
+    height:auto;
+    max-height: 30%;
     display: block;
+}
+
+.slick-dots {
+    position: relative;
+    bottom: 0px; /* Adjust as necessary */
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
 }
 

@@ -8,22 +8,27 @@ const Projectsdata = [
         members: 3,
         images: [
             '/images/9commerce/9commercehome.png',
-            '/images/9commerce/9commerceshop.png'
+            '/images/9commerce/9commerceshop.png',
+            '/images/9commerce/9commercelogin.png'
+
         ],
         codeLink: "https://github.com/LetsGetRemixed/9-Commerce",
         websiteurl: "https://commerce-app-tan.vercel.app"
     },
     {
         id: 2,
-        title: "Portfolio Website",
-        description: "A personal portfolio website to showcase my projects and skills in web development.",
-        class: "Web Design 202",
+        title: "Poke-Scan",
+        description: "This project uses a vision trainer model to accurately detect pokemon cards so a user can add or remove them from their collection.",
+        class: "Computer Vision",
         members: 1,
         images: [
-            'path_to_portfolio_image1.jpg',
-            'path_to_portfolio_image2.jpg'
+            '/images/pokescan/pokescan1.jpg',
+            '/images/pokescan/pokescan2.png',
+            '/images/pokescan/pokescan3.jpg',
+            '/images/pokescan/pokescan4.png',
+            '/images/pokescan/pokescan5.png',
         ],
-        codeLink: "https://github.com/yourusername/portfolio-website"
+        codeLink: "https://github.com/LetsGetRemixed/Poke-Scan"
     },
     {
         id: 3,

@@ -13,8 +13,8 @@
     margin-top: 5%;
 }
 
-h1, p {
-    color: #d1d1d1; /* Ensures text is visible */
+.resume-header p {
+    color: hsl(0, 0%, 100%); /* Ensures text is visible */
 }
 
 .resume-container {
