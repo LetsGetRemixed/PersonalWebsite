@@ -8,7 +8,7 @@ const Projectsdata = [
         members: 3,
         images: [
             '/images/9commerce/9commercehome.png',
-            'logo512.png'
+            '/images/9commerce/9commerceshop.png'
         ],
         codeLink: "https://github.com/LetsGetRemixed/9-Commerce",
         websiteurl: "https://commerce-app-tan.vercel.app"
