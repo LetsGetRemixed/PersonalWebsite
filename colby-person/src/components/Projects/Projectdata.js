@@ -2,15 +2,16 @@
 const Projectsdata = [
     {
         id: 1,
-        title: "Weather App",
-        description: "This project is a weather forecasting app created using React and the OpenWeatherMap API.",
-        class: "Web Development 101",
-        members: 2,
+        title: "9 COMMERCE",
+        description: "This is an ecommerce website developed for a software engineering project course. We used MongoDB as our backend database, firebase for deployment and authorization, and React as our framework. Our team built a fully function page where a user can create an account, browse, and purchase items. We also have a admin dashboard that only the admin of the page may view",
+        class: "Software Engineering Project",
+        members: 3,
         images: [
-            'Self-Pic.jpg',
+            '/images/9commerce/9commercehome.png',
             'logo512.png'
         ],
-        codeLink: "https://github.com/yourusername/weather-app"
+        codeLink: "https://github.com/LetsGetRemixed/9-Commerce",
+        websiteurl: "https://commerce-app-tan.vercel.app"
     },
     {
         id: 2,

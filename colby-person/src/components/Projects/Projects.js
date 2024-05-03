@@ -29,6 +29,7 @@ const ProjectCard = ({ project }) => {
             <p>Class: {project.class}</p>
             <p>Group Members: {project.members}</p>
             <a href={project.codeLink} className="project-link" target="_blank" rel="noopener noreferrer">View Code</a>
+            <a href={project.websiteurl} className="website-link" target="_blank" rel="noopener noreferrer">Visit Website</a>
         </div>
     </div>
 );
