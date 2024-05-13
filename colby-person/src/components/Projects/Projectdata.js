@@ -4,7 +4,7 @@ const Projectsdata = [
         id: 1,
         title: "9 COMMERCE",
         description: "This is an ecommerce website developed for a software engineering project course. We used MongoDB as our backend database, firebase for deployment and authorization, and React as our framework. Our team built a fully function page where a user can create an account, browse, and purchase items. We also have a admin dashboard that only the admin of the page may view",
-        class: "Software Engineering Project",
+        class: "Software Engineering Project 4398",
         members: 3,
         images: [
             '/images/9commerce/9commercehome.png',
@@ -19,8 +19,8 @@ const Projectsdata = [
         id: 2,
         title: "Poke-Scan",
         description: "This project uses a vision trainer model to accurately detect pokemon cards so a user can add or remove them from their collection.",
-        class: "Computer Vision",
-        members: 1,
+        class: "Intro To Computer Vision 4337 ",
+        members: 2,
         images: [
             '/images/pokescan/pokescan1.jpg',
             '/images/pokescan/pokescan2.png',
@@ -32,15 +32,17 @@ const Projectsdata = [
     },
     {
         id: 3,
-        title: "E-commerce Store",
-        description: "An e-commerce store built using React, Redux for state management, and Firebase as the backend.",
-        class: "Advanced React",
+        title: "Jumble Pack",
+        description: "A Local multiplayer application that features multiples games. Includes a unique pong game with powerups, a block-runner game, and classic tic-tac-toe",
+        class: "Software Engineering 3398",
         members: 4,
         images: [
-            'path_to_ecommerce_store_image1.jpg',
-            'path_to_ecommerce_store_image2.jpg'
+            '/images/jumblepack/jumbleMenu.png',
+            '/images/jumblepack/jumblePong.png',
+            '/images/jumblepack/jumbleDash.png',
+            '/images/jumblepack/jumbleToe.png',
         ],
-        codeLink: "https://github.com/yourusername/ecommerce-store"
+        codeLink: "https://bitbucket.org/cs3398f22vulcans/jumblepack/src/master/"
     }
 ];
 
