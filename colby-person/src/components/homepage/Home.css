@@ -150,6 +150,10 @@ body, html {
 }
 
 @media (max-width: 768px) {
+  .main-container{
+    height: 200%;
+    margin-top: 50px;
+  }
   .intro-container {
       flex-direction: column; /* Stack elements vertically */
       align-items: center; /* Center items horizontally */

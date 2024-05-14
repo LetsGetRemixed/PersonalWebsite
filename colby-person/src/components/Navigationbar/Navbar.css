@@ -2,12 +2,11 @@
 .navbar {
     background: linear-gradient(to right, #2c3e50, #4ca1af); /* Professional gradient background */
     color: white;
-    padding: 15px 0; /* Adjust padding for a cleaner look */
+    padding: 0px 0; /* Adjust padding for a cleaner look */
     position: fixed;
-    width: 80%; /* Full width */
-    top: 2%; 
-    left: 10%; /* Center the navbar */
-    border-radius: 10px; /* Slightly rounded corners */
+    width: 100%; /* Full width */
+    top: 0; 
+    
     z-index: 1000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     font-family: "Lato", sans-serif;
@@ -21,10 +20,7 @@
     margin: 0 auto;
 }
 
-.navbar-brand {
-    font-size: 24px;
-    font-weight: bold;
-}
+
 
 .nav-links {
     list-style: none;
@@ -58,6 +54,18 @@
     transform: translateY(-3px); /* Slight lift effect on hover */
 }
 
+.navbar-brand {
+    display: flex;
+    align-items: center; /* Center logo vertically */
+    margin-right: 0px; /* Add some left margin if needed */
+}
+
+.logo{
+    height:100px;
+   
+}
+
+
 /* Hamburger menu styles */
 .hamburger-menu {
     display: none;
@@ -74,7 +82,11 @@
 }
 
 /* Responsive styles */
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
+    .navbar-container{
+        height:40px;
+        padding: 20px;
+    }
     .nav-links {
         display: none;
         flex-direction: column;

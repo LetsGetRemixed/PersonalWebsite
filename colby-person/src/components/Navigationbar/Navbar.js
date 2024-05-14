@@ -22,7 +22,11 @@ function Navbar() {
     return (
         <nav className={scroll ? "navbar navbar-scroll" : "navbar"}>
             <div className="navbar-container">
-                
+                 <div class="navbar-brand">
+                 <Link to="/">
+                    <img src="signature.png" alt="Logo" className="logo" />
+                </Link>
+                 </div>
                 <div className="hamburger-menu" onClick={toggleMenu}>
                     <span></span>
                     <span></span>
