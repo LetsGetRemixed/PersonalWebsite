@@ -3,7 +3,7 @@ const Projectsdata = [
     {
         id: 1,
         title: "9 COMMERCE",
-        description: "This is an ecommerce website developed for a software engineering project course. We used MongoDB as our backend database, firebase for deployment and authorization, and React as our framework. Our team built a fully function page where a user can create an account, browse, and purchase items. We also have a admin dashboard that only the admin of the page may view for item and order management",
+        description: "An ecommerce website designed for users to create an account, shop through items, securely checkout, and includes an admin dashboard for inventory and order management.",
         type: "Class Project",
         class: "Software Engineering Project 4398",
         members: 3,
@@ -64,14 +64,15 @@ const Projectsdata = [
     {
         id: 30,
         title: "Clean Power Pro Website",
-        description: "A financing Tax caluclator built for CleanPowerPro to help clients who use solar get an estimated understanding on how much money their company can save them when filing their taxes with their company",
+        description: "A website for financial consulting to help clients get estimates using the Tax Caluclator and contact options to reach out for consulting",
         type: "Job Assignment",
         class: "Clean Power Pro",
         members: 2,
         images: [
-            '/images/mindmi/mindmicalendar.png',
-            '/images/mindmi/mindmijournal.png',
-            '/images/mindmi/mindmireminder.png',
+            '/images/cleanpowerpro/cleanpowerheader.png',
+            '/images/cleanpowerpro/cleanpowercontact.png',
+            '/images/cleanpowerpro/cleanpowerfaq.png',
+            
         ],
         codeLink: "https://github.com/LetsGetRemixed/TaxWebsite"
     }
