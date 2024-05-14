@@ -58,7 +58,7 @@ function Bio() {
                   <li>Problem Solver</li>
                   <li>Critical Thinker</li>
                   <li>Creativity</li>
-                  <li>Resposible</li>
+                  <li>Responsible</li>
                 
               </ul>
 
