@@ -50,8 +50,9 @@ const ProjectCard = ({ project }) => {
         <div className="project-details">
             <h2>{project.title}</h2>
             <p>{project.description}</p>
-            <p>Class: {project.class}</p>
-            <p>Group Members: {project.members}</p>
+            <p>Project Type: {project.type}</p>
+            <p>Context:  {project.class}</p>
+            <p>Total Developers: {project.members}</p>
             <a href={project.codeLink} className="project-link" target="_blank" rel="noopener noreferrer">View Code</a>
             {project.websiteurl && (
         <a href={project.websiteurl} className="website-link" target="_blank" rel="noopener noreferrer">Visit Website</a>

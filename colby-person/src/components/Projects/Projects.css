@@ -3,6 +3,18 @@ body{
 
     font-family: "lato", sans-serif;
 }
+body h1{
+    font-size: 42px; /* Large, bold text for the name */
+    font-weight: 700;
+    background: linear-gradient(to right, #530a94, #db9bf7);
+    font-family: "Abril Fatface", serif;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    padding: 30px;
+    
+
+}
 body h2{
     font-family: "Abril Fatface", serif;
     font-weight: 600;
@@ -47,7 +59,7 @@ body p{
     margin-right: 20px;
     width: 150%; /* Use 100% to make it flexible */
     max-width: 600px; /* Upper limit for horizontal images */
-    min-width: 500px;
+    min-width: 600px;
     height: 100%; /* Allow container height to adjust */
     max-height: 600px; /* Upper limit for horizontal images */
     overflow: hidden;
@@ -55,6 +67,35 @@ body p{
     border-radius: 10px; /* Optional: Adds rounded corners to the border */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow for depth */
   
+}
+
+
+
+@media (max-width: 1200px) {
+    .project-card {
+        flex-direction: column; /* Change flex direction to column for smaller screens */
+        align-items: center; /* Center items */
+    }
+
+    .project-image-container {
+        margin-right: 0; /* Reset margin */
+        margin-bottom: 20px; /* Add bottom margin for spacing */
+        max-width: 500px; /* Adjust max-width for half-tabbed sizes */
+        min-width: 400px;
+        max-height: 500px; /* Adjust max-height for half-tabbed sizes */
+    }
+}
+
+@media (max-width: 550px) {
+    .project-card {
+        flex-direction: column; /* Change flex direction to column for smaller screens */
+        align-items: center; /* Center items */
+    }
+    .project-image-container {
+        max-width: 200px; /* Adjust max-width for phone sizes */
+        min-width: 200px;
+        max-height: 300px; /* Adjust max-height for phone sizes */
+    }
 }
 
 
