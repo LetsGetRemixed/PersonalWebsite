@@ -1,41 +1,43 @@
-/* ProjectsPage.css */
-body{
+/* Updated ProjectsPage.css */
 
-    font-family: "lato", sans-serif;
+body {
+    font-family: "Lato", sans-serif;
+    background: linear-gradient(to bottom, #2c3e50, #4ca1af); /* Updated background */
 }
-body h1{
-    font-size: 42px; /* Large, bold text for the name */
-    font-weight: 700;
-    background: linear-gradient(to right, #530a94, #db9bf7);
-    font-family: "Abril Fatface", serif;
-    color: white;
+
+body h1 {
+    font-size: 42px; /* Large, bold text */
+    font-weight: 800;
+    background: linear-gradient(to right, #ffffff, #f0ecec); /* Light gradient for readability */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Makes the text color transparent, showing the background */
     text-align: center;
     border-radius: 50px;
     padding: 30px;
-    
-
+    margin-top: 20px; /* Adjust margin for spacing */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.041); /* Subtle shadow for better contrast */
 }
-body h2{
+
+body h2 {
     font-family: "Abril Fatface", serif;
     font-weight: 600;
-    color:#0078f8;
+    color: #4ca1af; /* Match color with the new theme */
 }
-body p{
-    font-family:"PT Sans", sans-serif;
-    color:#000000;
+
+body p {
+    font-family: "PT Sans", sans-serif;
+    color: #000000; /* Use white for better contrast */
     font-size: 20px;
 }
 
-
 .background {
-    min-height: '100vh';
-    background: linear-gradient(to bottom, #000000, #2e153e);
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #2c3e50, #4ca1af); /* Updated background */
     padding-top: 10%;
-
 }
 
 .projects-container {
-    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
     background-size: cover;
     min-height: 100vh;
     padding: 20px;
@@ -45,31 +47,27 @@ body p{
 }
 
 .project-card {
-    border: 2px solid black;
+    border: 2px solid #4ca1af; /* Update border color to match theme */
     padding: 50px;
     margin: 10px;
     width: 80%;
-    box-shadow: 0px 0px 10px #000;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
     display: flex;
     border-radius: 20px;
-    background: rgb(255, 255, 255); /* semi-transparent white background */
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
 }
 
 .project-image-container {
-    margin-right: 20px;
-    width: 150%; /* Use 100% to make it flexible */
+    margin-right: 50px;
+    width: 100%;
     max-width: 600px; /* Upper limit for horizontal images */
-    min-width: 600px;
-    height: 100%; /* Allow container height to adjust */
-    max-height: 600px; /* Upper limit for horizontal images */
-    overflow: hidden;
-    border: 2px solid #000000; /* Blue border, you can change the color and size */
-    border-radius: 10px; /* Optional: Adds rounded corners to the border */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow for depth */
-  
+    min-width: 400px;
+    height: auto;
+    border: 2px solid #4ca1af; /* Match border color with the new theme */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    
 }
-
-
 
 @media (max-width: 1200px) {
     .project-card {
@@ -80,9 +78,7 @@ body p{
     .project-image-container {
         margin-right: 0; /* Reset margin */
         margin-bottom: 20px; /* Add bottom margin for spacing */
-        max-width: 500px; /* Adjust max-width for half-tabbed sizes */
-        min-width: 400px;
-        max-height: 500px; /* Adjust max-height for half-tabbed sizes */
+        max-width: 500px; /* Adjust max-width for smaller screens */
     }
 }
 
@@ -91,51 +87,37 @@ body p{
         flex-direction: column; /* Change flex direction to column for smaller screens */
         align-items: center; /* Center items */
     }
+
     .project-image-container {
         max-width: 200px; /* Adjust max-width for phone sizes */
-        min-width: 200px;
-        max-height: 300px; /* Adjust max-height for phone sizes */
     }
 }
-
-
 
 .project-details {
     flex-grow: 1;
 }
 
-.project-link {
+.project-link, .website-link {
     text-decoration: none;
-    color: #007BFF;
+    color: #4ca1af; /* Match link color with the new theme */
     font-weight: bold;
     margin-top: 5%;
-    margin-left: 10%;
     display: inline-block;
     font-size: 20px;
 }
 
-.project-link:hover {
-    text-decoration: underline;
+.website-link{
+    margin-left: 5%;
 }
 
-.website-link {
-    text-decoration: none;
-    color: #007BFF;
-    font-weight: bold;
-    margin-top: 10px;
-    margin-left: 20%;
-    display: inline-block;
-    font-size: 20px;
-}
-
-.website-link:hover {
+.project-link:hover, .website-link:hover {
     text-decoration: underline;
 }
 
 /* Slick slider specific styles */
 .slick-slide img {
     width: 100%;
-    height:auto;
+    height: auto;
     max-height: 30%;
     display: block;
 }

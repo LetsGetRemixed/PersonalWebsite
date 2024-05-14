@@ -1,20 +1,29 @@
+/* Base navbar styles */
 .navbar {
-    background: linear-gradient(to top, #9cbeff , #d09eff); /* Purple gradient background */
+    background: linear-gradient(to right, #2c3e50, #4ca1af); /* Professional gradient background */
     color: white;
-    padding: 10px 0; /* Adjust padding for a smaller bar */
+    padding: 15px 0; /* Adjust padding for a cleaner look */
     position: fixed;
-    width: 60%; /* Reduce the width to make the navbar smaller */
-    top: 3%; left: 20%; /* Center the navbar */
-    border-radius: 30px; /* Adjust for a rounded look */
+    width: 80%; /* Full width */
+    top: 2%; 
+    left: 10%; /* Center the navbar */
+    border-radius: 10px; /* Slightly rounded corners */
     z-index: 1000;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1),
-                0 8px 10px rgba(255,255,255,0.7); /* Neon glow effect */
-                font-family: "Lato", sans-serif;
-                
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-family: "Lato", sans-serif;
 }
 
-.navbar-scroll {
-    background-color: rgba(106, 48, 147, 0.6); /* Semi-transparent gradient for scrolled state */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .nav-links {
@@ -22,31 +31,70 @@
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center; /* Ensure evenly spaced links */
+    justify-content: center;
+    width: 100%;
 }
 
 .nav-links li {
-    margin: 0 0px;
-    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transformation for hover effects */
-    transform: skewX(-18deg); /* Skew horizontally for rhombus shape */
+    margin: 0 20px; /* Add spacing between links */
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .nav-links a {
-    display: block; /* Makes the anchor cover the skewed li */
-    padding: 10px 40px; /* Padding to increase the clickable area */
-    position:top;
-    background: linear-gradient(to left, #9cbeff , #d09eff); /* Semi-transparent background */
-    color: rgb(141, 15, 199);
+    display: block; /* Makes the anchor cover the li */
+    padding: 10px 20px; /* Padding for better clickable area */
+    background: transparent; /* Transparent background */
+    color: white; /* Text color */
     text-decoration: none;
-    font-size: 20px;
-    font-weight: 1000;
-   /* Reverse skew to normalize the text */
-    border-radius: 0px; /* Slight rounding of corners if desired */
+    font-size: 18px;
+    font-weight: bold;
     transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
-    border-width: 20%;
+    border-radius: 5px; /* Slight rounding of corners */
 }
 
-.nav-links li:hover {
-    box-shadow: 0 0 50px rgba(255, 255, 255, 0.75); /* Light up effect on hover */
-    transform:translateY(10px);
+.nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Light up effect on hover */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); /* Subtle shadow on hover */
+    transform: translateY(-3px); /* Slight lift effect on hover */
+}
+
+/* Hamburger menu styles */
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger-menu span {
+    width: 25px;
+    height: 3px;
+    background: white;
+    margin: 4px 0;
+    transition: all 0.3s;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background: linear-gradient(to right, #2c3e50, #4ca1af);
+        align-items: center; /* Center links horizontally */
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .hamburger-menu {
+        display: flex;
+    }
 }

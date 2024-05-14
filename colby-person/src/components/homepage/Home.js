@@ -23,7 +23,7 @@ function Home() {
                             <a href="https://github.com/LetsGetRemixed" className="icon-button">
                                 <i className="bi bi-github"></i>
                             </a>
-                            <a href="https://github.com/LetsGetRemixed" className="contact-lnik" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/LetsGetRemixed" className="contact-link" target="_blank" rel="noopener noreferrer">
                                 https://github.com/LetsGetRemixed
                             </a>
                         </div>
