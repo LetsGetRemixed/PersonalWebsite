@@ -15,7 +15,7 @@ function Home() {
             <div className="name">Colby Person</div>
             <div className="profession">Software Engineer</div>
             <div className="ethics">Strong Passion for Coding.</div>
-            <div className="ethics">Strong Work Ethic.</div>
+            <div className="ethics">Innovate, Learn, and Excel.</div>
           </div>
           <div className="contact-info">
             <div className="contact-item">
