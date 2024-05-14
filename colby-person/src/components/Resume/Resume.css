@@ -1,10 +1,10 @@
-/* This container wraps everything except the navbar */
+/* Updated Resume Page CSS */
+
 .main-content {
-     /* Adjust this value based on the actual height of your navbar */
     width: 100%;
     padding: 20px 0; /* Adds padding around the content */
     box-sizing: border-box; /* Includes padding in width calculation */
-    background: linear-gradient(to bottom, #000000, #2e153e);
+    background: linear-gradient(to bottom, #2c3e50, #4ca1af); /* Updated background */
 }
 
 .resume-header {
@@ -14,7 +14,7 @@
 }
 
 .resume-header p {
-    color: hsl(0, 0%, 100%); /* Ensures text is visible */
+    color: #ffffff; /* Ensures text is visible */
 }
 
 .resume-container {
@@ -34,7 +34,7 @@ iframe, object {
 }
 
 a {
-    color: #007bff;
+    color: #4ca1af; /* Match link color with the new theme */
     text-decoration: none;
 }
 
@@ -48,24 +48,18 @@ html, body {
     padding: 0; /* Removes default padding */
 }
 
-@keyframes float {
-    0%, 100% {
-        transform: translateY(0); /* Start and end at the original position */
-    }
-    50% {
-        transform: translateY(-10px); /* Move up by 10 pixels */
-    }
-}
+
 
 .resume-header h1 {
-    font-size: 2rem; /* Adjust font size as needed */
-    color: #b330f5; /* Text color */
+    font-size: 2.5rem; /* Adjust font size as needed */
     font-weight: 900;
-    background: linear-gradient(to right, #530a94, #db9bf7); /* Example gradient from blue to teal */
+    background: linear-gradient(to right, #ffffff, #e0e0e0); /* Lighter gradient for readability */
     -webkit-background-clip: text;
+    font-family: "Lato", sans-serif;
     -webkit-text-fill-color: transparent; /* Makes the text color transparent, showing the background */
-    display: inline-block; /* Required to ensure the gradient covers the text */
+    display: inline-block; /* Ensure the gradient covers the text */
     text-align: center;
-    margin-bottom: -10%;
+    margin-bottom: 10px;
     animation: float 4s ease-in-out infinite;  /* Smooths the animation transitions */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.008); /* Subtle shadow for better contrast */
 }

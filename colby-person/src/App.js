@@ -3,10 +3,11 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/homepage/Home';
 
-import Bio from './components/Bio/Bio';
+
 import Education from './components/Education/Education';
 import ProjectsPage from './components/Projects/ProjectPage';
 import Resume from './components/Resume/Resume';
+import Bio from './components/Bio/Bio';
 
 
 
