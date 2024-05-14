@@ -3,39 +3,78 @@ const Projectsdata = [
     {
         id: 1,
         title: "9 COMMERCE",
-        description: "This is an ecommerce website developed for a software engineering project course. We used MongoDB as our backend database, firebase for deployment and authorization, and React as our framework. Our team built a fully function page where a user can create an account, browse, and purchase items. We also have a admin dashboard that only the admin of the page may view",
-        class: "Software Engineering Project",
+        description: "An ecommerce website designed for users to create an account, shop through items, securely checkout, and includes an admin dashboard for inventory and order management.",
+        type: "Class Project",
+        class: "Software Engineering Project 4398",
         members: 3,
         images: [
             '/images/9commerce/9commercehome.png',
-            '/images/9commerce/9commerceshop.png'
+            '/images/9commerce/9commerceshop.png',
+            '/images/9commerce/9commercelogin.png'
+
         ],
         codeLink: "https://github.com/LetsGetRemixed/9-Commerce",
         websiteurl: "https://commerce-app-tan.vercel.app"
     },
     {
         id: 2,
-        title: "Portfolio Website",
-        description: "A personal portfolio website to showcase my projects and skills in web development.",
-        class: "Web Design 202",
-        members: 1,
+        title: "Poke-Scan",
+        description: "This project uses a vision trainer model to accurately detect pokemon cards so a user can add or remove them from their collection.",
+        type: "Class Project",
+        class: "Intro To Computer Vision 4337 ",
+        members: 2,
         images: [
-            'path_to_portfolio_image1.jpg',
-            'path_to_portfolio_image2.jpg'
+            '/images/pokescan/pokescan1.jpg',
+            '/images/pokescan/pokescan2.png',
+            '/images/pokescan/pokescan3.jpg',
+            '/images/pokescan/pokescan4.png',
+            '/images/pokescan/pokescan5.png',
         ],
-        codeLink: "https://github.com/yourusername/portfolio-website"
+        codeLink: "https://github.com/LetsGetRemixed/Poke-Scan"
     },
     {
         id: 3,
-        title: "E-commerce Store",
-        description: "An e-commerce store built using React, Redux for state management, and Firebase as the backend.",
-        class: "Advanced React",
+        title: "Jumble Pack",
+        description: "A Local multiplayer application that features multiples games. Includes a unique pong game with powerups, a block-runner game, and classic tic-tac-toe",
+        type: "Class Project",
+        class: "Software Engineering 3398",
         members: 4,
         images: [
-            'path_to_ecommerce_store_image1.jpg',
-            'path_to_ecommerce_store_image2.jpg'
+            '/images/jumblepack/jumbleMenu.png',
+            '/images/jumblepack/jumblePong.png',
+            '/images/jumblepack/jumbleDash.png',
+            '/images/jumblepack/jumbleToe.png',
         ],
-        codeLink: "https://github.com/yourusername/ecommerce-store"
+        codeLink: "https://bitbucket.org/cs3398f22vulcans/jumblepack/src/master/"
+    },
+    {
+        id: 4,
+        title: "MindMi",
+        description: "MindMi is a reminder, scheduling, and mindfulness app. It was created for high-stress users (like college students or business men and women) to help relax, plan, and help users with maintaining their mental health.",
+        type: "Class Project",
+        class: "Human Factors 4326",
+        members: 4,
+        images: [
+            '/images/mindmi/mindmicalendar.png',
+            '/images/mindmi/mindmijournal.png',
+            '/images/mindmi/mindmireminder.png',
+        ],
+        codeLink: "https://github.com/LetsGetRemixed/MindMi"
+    },
+    {
+        id: 30,
+        title: "Clean Power Pro Website",
+        description: "A website for financial consulting to help clients get estimates using the Tax Caluclator and contact options to reach out for consulting",
+        type: "Job Assignment",
+        class: "Clean Power Pro",
+        members: 2,
+        images: [
+            '/images/cleanpowerpro/cleanpowerheader.png',
+            '/images/cleanpowerpro/cleanpowercontact.png',
+            '/images/cleanpowerpro/cleanpowerfaq.png',
+            
+        ],
+        codeLink: "https://github.com/LetsGetRemixed/TaxWebsite"
     }
 ];
 
