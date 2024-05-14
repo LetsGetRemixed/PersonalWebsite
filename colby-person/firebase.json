@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "colby-person",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
