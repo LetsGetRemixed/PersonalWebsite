@@ -3,7 +3,7 @@ const Projectsdata = [
     {
         id: 1,
         title: "9 COMMERCE",
-        description: "This is an ecommerce website developed for a software engineering project course. We used MongoDB as our backend database, firebase for deployment and authorization, and React as our framework. Our team built a fully function page where a user can create an account, browse, and purchase items. We also have a admin dashboard that only the admin of the page may view",
+        description: "This is an ecommerce website developed for a software engineering project course. We used MongoDB as our backend database, firebase for deployment and authorization, and React as our framework. Our team built a fully function page where a user can create an account, browse, and purchase items. We also have a admin dashboard that only the admin of the page may view for item and order management",
         class: "Software Engineering Project 4398",
         members: 3,
         images: [
@@ -43,6 +43,19 @@ const Projectsdata = [
             '/images/jumblepack/jumbleToe.png',
         ],
         codeLink: "https://bitbucket.org/cs3398f22vulcans/jumblepack/src/master/"
+    },
+    {
+        id: 4,
+        title: "MindMi",
+        description: "MindMi is a reminder, scheduling, and mindfulness app. It was created for high-stress users (like college students or business men and women) to help relax, plan, and help users with maintaining their mental health.",
+        class: "Human Factors 4326",
+        members: 4,
+        images: [
+            '/images/mindmi/mindmicalendar.png',
+            '/images/mindmi/mindmijournal.png',
+            '/images/mindmi/mindmireminder.png',
+        ],
+        codeLink: "https://github.com/LetsGetRemixed/MindMi"
     }
 ];
 
