@@ -1,0 +1,37 @@
+[debug] [2024-05-14T22:13:56.152Z] ----------------------------------------------------------------------
+[debug] [2024-05-14T22:13:56.154Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\colby\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2024-05-14T22:13:56.154Z] CLI Version:   13.9.0
+[debug] [2024-05-14T22:13:56.154Z] Platform:      win32
+[debug] [2024-05-14T22:13:56.155Z] Node Version:  v20.1.0
+[debug] [2024-05-14T22:13:56.155Z] Time:          Tue May 14 2024 17:13:56 GMT-0500 (Central Daylight Time)
+[debug] [2024-05-14T22:13:56.155Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-14T22:13:56.246Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-14T22:13:56.246Z] > authorizing via signed-in user (maveconstruction@gmail.com)
+[debug] [2024-05-14T22:13:56.246Z] [iam] checking project portfolio-95e65 for permissions ["firebase.projects.get"]
+[debug] [2024-05-14T22:13:56.248Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-95e65:testIamPermissions [none]
+[debug] [2024-05-14T22:13:56.248Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-95e65:testIamPermissions x-goog-quota-user=projects/portfolio-95e65
+[debug] [2024-05-14T22:13:56.248Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-95e65:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-05-14T22:13:56.462Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-95e65:testIamPermissions 200
+[debug] [2024-05-14T22:13:56.462Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-95e65:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-05-14T22:13:56.463Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-95e65 [none]
+[debug] [2024-05-14T22:13:56.811Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-95e65 200
+[debug] [2024-05-14T22:13:56.811Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-95e65 {"projectId":"portfolio-95e65","projectNumber":"822512673391","displayName":"Portfolio","name":"projects/portfolio-95e65","resources":{"hostingSite":"portfolio-95e65"},"state":"ACTIVE","etag":"1_ddb70064-8543-41d5-b220-d63815fda17e"}
+[info] 
+[info] === Serving from 'C:\Users\colby\Downloads\Not WASD\PersonalWebsite\colby-person'...
+[info] 
+[debug] [2024-05-14T22:13:56.814Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/portfolio-95e65/sites 
+[debug] [2024-05-14T22:13:57.147Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/portfolio-95e65/sites 200
+[debug] [2024-05-14T22:13:57.147Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/portfolio-95e65/sites {"sites":[{"name":"projects/portfolio-95e65/sites/portfolio-95e65","defaultUrl":"https://portfolio-95e65.web.app","appId":"1:822512673391:web:a91434cf19a3fa42c9239a","type":"DEFAULT_SITE"}]}
+[debug] [2024-05-14T22:13:57.147Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-95e65/webApps/1:822512673391:web:a91434cf19a3fa42c9239a/config [none]
+[debug] [2024-05-14T22:13:57.450Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-95e65/webApps/1:822512673391:web:a91434cf19a3fa42c9239a/config 200
+[debug] [2024-05-14T22:13:57.450Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-95e65/webApps/1:822512673391:web:a91434cf19a3fa42c9239a/config {"projectId":"portfolio-95e65","appId":"1:822512673391:web:a91434cf19a3fa42c9239a","storageBucket":"portfolio-95e65.appspot.com","apiKey":"AIzaSyBLbEc7UaRK4aeSJ-pIM7KkdrO7hPMhCFs","authDomain":"portfolio-95e65.firebaseapp.com","messagingSenderId":"822512673391","measurementId":"G-3FKVB9VKXJ"}
+[debug] [2024-05-14T22:13:57.455Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-95e65 [none]
+[debug] [2024-05-14T22:13:57.668Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-95e65 200
+[debug] [2024-05-14T22:13:57.668Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-95e65 {"projectId":"portfolio-95e65","projectNumber":"822512673391","displayName":"Portfolio","name":"projects/portfolio-95e65","resources":{"hostingSite":"portfolio-95e65"},"state":"ACTIVE","etag":"1_ddb70064-8543-41d5-b220-d63815fda17e"}
+[debug] [2024-05-14T22:13:57.669Z] Specified "public" directory "PersonalWebsite/colby-person" does not exist; Deploy to Hosting site "portfolio-95e65" may fail or be empty.
+[info] i  hosting[portfolio-95e65]: Serving hosting files from: PersonalWebsite/colby-person {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mPersonalWebsite/colby-person\u001b[22m"}}
+[info] +  hosting[portfolio-95e65]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [14/May/2024:22:14:04 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [14/May/2024:22:14:04 +0000] \"GET /__/firebase/init.js?useEmulator=true HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0\""}}
+[info] i  hosting: ::1 - - [14/May/2024:22:14:06 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [14/May/2024:22:14:06 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0\""}}
+[info] i  hosting: ::1 - - [14/May/2024:22:14:08 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [14/May/2024:22:14:08 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0\""}}
