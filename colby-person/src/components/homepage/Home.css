@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh; /* Full viewport height */
-  padding-top: 60px; /* Adjust to avoid navbar overlap */
+  padding-top: 50px; /* Adjust to avoid navbar overlap */
   padding-left: 20px;
   padding-right: 20px;
   background: linear-gradient(to bottom, #2c3e50, #4ca1af); /* Updated background */
@@ -72,6 +72,15 @@
   display: inline-block; /* Necessary for transform effects */
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: linear-gradient(to right, #2c3e50, #4ca1af); /* Match the background */
+  padding: 40px 0;
+}
+
 .glowing-text {
   font-size: 24px; /* Big bold text */
   font-weight: bold; /* Bold text style */
@@ -80,10 +89,9 @@
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.5), /* Outer light white glow */
                0 0 10px rgba(255, 255, 255, 0.4), /* Pronounced white glow */
                0 0 20px rgba(255, 255, 255, 0.3); /* Subtle glow effect */
-  position: fixed; /* Fixed at the bottom */
+  margin-top: 20px; /* Space above the text */
   width: 100%; /* Full width */
-  bottom: 50px; /* 50 pixels from the bottom */
-  left: 0; /* Align left edge */
+  flex-shrink: 0; /* Prevent shrinking */
 }
 
 body, html {
@@ -139,4 +147,29 @@ body, html {
   display: flex; /* Enables flexbox layout */
   align-items: center; /* Vertically centers the icon and text */
   margin-bottom: 10px; /* Space below each contact item */
+}
+
+@media (max-width: 768px) {
+  .intro-container {
+      flex-direction: column; /* Stack elements vertically */
+      align-items: center; /* Center items horizontally */
+      margin-left: 0; /* Reset margin */
+  }
+
+  .profile-pic {
+      width: 200px; /* Adjust size for smaller screens */
+      height: 200px; /* Adjust size for smaller screens */
+      margin-bottom: 20px; /* Space below the profile pic */
+  }
+
+  .introduction {
+      margin-left: 0; /* Reset margin */
+      text-align: center; /* Center text for smaller screens */
+  }
+
+  .contact-info {
+      margin-left: 0; /* Reset margin */
+      align-items: left; /* Center items horizontally */
+     
+  }
 }
