@@ -48,7 +48,7 @@ function Bio() {
                   <li>Circle CI</li>
                   <li>Bitbucket</li>
                   <li>MySQL</li>
-                  <li>Microsoft Ofiice</li>
+                  <li>Microsoft Office</li>
               </ul>
 
               <h2 className="section-title">Soft Skills</h2>
