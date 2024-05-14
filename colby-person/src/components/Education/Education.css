@@ -1,0 +1,170 @@
+/* General Styles */
+body {
+    font-family: "Lato", sans-serif;
+    background: linear-gradient(to bottom, #2c3e50, #4ca1af);
+    margin: 0;
+    padding: 0;
+}
+
+.education-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.education-title {
+    font-size: 42px; /* Large, bold text */
+    font-weight: 800;
+    background: linear-gradient(to right, #ffffff, #f0ecec); /* Light gradient for readability */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Makes the text color transparent, showing the background */
+    text-align: center;
+    border-radius: 50px;
+    padding: 30px;
+    margin-top: 100px; /* Adjust margin for spacing */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.041); /* Subtle shadow for better contrast */
+}
+
+
+.education-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.education-item {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #2c3e50;
+}
+
+.education-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.education-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.institution-name {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #572830;
+}
+
+.minstitution-name{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #5f157b;
+}
+
+.degree, .minor {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.minor {
+        font-size:1.1rem;
+}
+
+.dates, .gpa {
+    font-size: 1rem;
+    color: #8B734B;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.subsection-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.course-list, .activity-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.course-list li, .activity-list li {
+    background: #f2f2f2;
+    color: #2c3e50;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .education-container {
+        width: 90%;
+    }
+
+    .education-title {
+        font-size: 2rem;
+    }
+
+    .education-item {
+        padding: 15px;
+    }
+
+    .education-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .education-photo {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .institution-name {
+        font-size: 1.5rem;
+    }
+
+    .degree, .minor {
+        font-size: 1rem;
+    }
+
+    .minor {
+        font-size:.9rem;
+}
+
+    .dates, .gpa {
+        font-size: 0.9rem;
+    }
+
+    .description {
+        font-size: 0.9rem;
+    }
+
+    .subsection-title {
+        font-size: 1rem;
+    }
+
+    .course-list li, .activity-list li {
+        font-size: 0.9rem;
+    }
+}

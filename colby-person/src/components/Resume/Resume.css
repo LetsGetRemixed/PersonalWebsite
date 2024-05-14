@@ -48,14 +48,7 @@ html, body {
     padding: 0; /* Removes default padding */
 }
 
-@keyframes float {
-    0%, 100% {
-        transform: translateY(0); /* Start and end at the original position */
-    }
-    50% {
-        transform: translateY(-10px); /* Move up by 10 pixels */
-    }
-}
+
 
 .resume-header h1 {
     font-size: 2.5rem; /* Adjust font size as needed */
