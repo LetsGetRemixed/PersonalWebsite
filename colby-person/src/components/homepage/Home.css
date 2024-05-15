@@ -177,3 +177,25 @@ body, html {
      
   }
 }
+
+@media (max-width: 400px){
+  .profile-pic {
+    width: 100px; /* Adjust size for smaller screens */
+    height: 100px; /* Adjust size for smaller screens */
+    margin-bottom: 20px; /* Space below the profile pic */
+}
+
+.intro-container{
+max-width: 200px;
+}
+.contact-info{
+  align-items: left;
+  margin-left:50px;
+}
+
+.contact-link{
+  font-size: 12px;
+
+}
+
+}

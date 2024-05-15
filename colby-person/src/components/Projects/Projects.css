@@ -80,17 +80,22 @@ body p {
         margin-bottom: 20px; /* Add bottom margin for spacing */
         max-width: 500px; /* Adjust max-width for smaller screens */
     }
+    
 }
 
-@media (max-width: 550px) {
+@media (max-width: 400px) {
     .project-card {
         flex-direction: column; /* Change flex direction to column for smaller screens */
-        align-items: center; /* Center items */
+        align-items: center;
+        /* Center items */
     }
 
     .project-image-container {
-        max-width: 200px; /* Adjust max-width for phone sizes */
+        max-width: 150px; /* Upper limit for horizontal images */
+        min-width: 160px; /* Adjust max-width for phone sizes */
     }
+    
+
 }
 
 .project-details {

@@ -86,16 +86,22 @@
     .navbar-container{
         height:40px;
         padding: 20px;
+        display:flex;
+        align-items:center;
     }
     .nav-links {
         display: none;
         flex-direction: column;
         width: 100%;
         position: absolute;
-        top: 60px;
+        top: 40px;
         left: 0;
         background: linear-gradient(to right, #2c3e50, #4ca1af);
         align-items: center; /* Center links horizontally */
+    }
+
+    .logo{
+      height:100px;  
     }
 
     .nav-links.active {
@@ -108,5 +114,14 @@
 
     .hamburger-menu {
         display: flex;
+        
     }
+}
+
+@media (max-width: 400px) {
+
+    .logo{
+        height:60px;  
+      }
+
 }
