@@ -19,22 +19,19 @@ jobs:
           node-version: '14'
 
       - name: Install Dependencies
-        working-directory: colby-person
         run: npm install
+        working-directory: colby-person
 
       - name: Build Project
-        working-directory: colby-person
         run: npm run build
+        working-directory: colby-person
 
       - name: List Build Directory (for debugging)
-        working-directory: colby-person
-        run: ls -la build
+        run: ls -la
+        working-directory: colby-person/build
 
       - name: Deploy to Firebase Hosting
+        run: firebase deploy --only hosting --token "$FIREBASE_TOKEN"
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_95E65 }}
         working-directory: colby-person
-        uses: FirebaseExtended/action-hosting-deploy@v0
-        with:
-          repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_95E65 }}
-          channelId: live
-          projectId: portfolio-95e65
