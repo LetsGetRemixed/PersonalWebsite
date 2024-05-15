@@ -41,7 +41,8 @@ const ProjectCard = ({ project }) => {
             <Slider {...settings}>
             {project.images.map((img, index) => (
     <div key={index}>
-        <img src={img} alt={`Project image ${index}`} onLoad={(e) => adjustContainerForImage(e.target)} />
+        <img src={img} alt={`Project ${index}`} onLoad={(e) => adjustContainerForImage(e.target)} />
+
     </div>
 ))}
 
