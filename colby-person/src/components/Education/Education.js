@@ -12,7 +12,7 @@ function Education() {
               <div className="education-content">
                   <div className="education-item">
                       <div className="education-header">
-                          <img src="/images/education/texasstatelogo.png" alt="University" className="education-photo"/>
+                          <img src="./images/education/texasstatelogo.png" alt="University" className="education-photo"/>
                           <div>
                               <h2 className="institution-name">Texas State University</h2>
                               <p className="degree">Bachelor of Science in Computer Science</p>
