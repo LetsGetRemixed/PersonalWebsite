@@ -55,7 +55,7 @@ function Education() {
                               <p className="gpa">GPA Unweighted: 3.482/4.00</p>
                           </div>
                       </div>
-                      <p className="description">My career as a software engineer officially started in highschool, where I begun my journey taking an AP Computer Science course, finding my true love and passion for coding, as well as giving me a headstart in college.</p>
+                      <p className="description">My career as a software engineer officially started in highschool, where I began my journey taking an AP Computer Science course, finding my true love and passion for coding, as well as giving me a headstart in college.</p>
                       <h3 className="subsection-title">Extra-Curricular Activities</h3>
                       <ul className="activity-list">
                           <li>Varsity Football</li>
