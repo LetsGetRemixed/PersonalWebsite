@@ -16,7 +16,7 @@ function Bio() {
                   Hello! I'm Colby Person, a passionate Software Engineer with a strong dedication for
                    coding and an insatiable curiosity for learning new technologies.
                   I find myself daily seeking more ways to create, learn, and develop new ideas and projects.
-                  I thrive in team enviroments and aspire to always take great leadership when I
+                  I thrive in team environments and aspire to always take great leadership when I
                   am called upon for it.
               </p>
               <p className="bio-description">
@@ -66,7 +66,7 @@ function Bio() {
               <h2 className="section-title">Hobbies & Interests</h2>
               <ul className="hobbies-list">
                   <li>Playing Piano</li>
-                  <li>Writing Music</li>
+                  <li>Writing & Producing Music</li>
                   <li>Chess</li>
                   <li>Playing Video Games</li>
                   <li>Creating Websites</li>
