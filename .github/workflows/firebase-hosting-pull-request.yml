@@ -16,16 +16,28 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Change Directory to colby-person
+        run: cd colby-person
+
       - name: Install Dependencies
+        working-directory: colby-person
         run: npm install
 
       - name: Build Project
+        working-directory: colby-person
         run: npm run build
 
       - name: List Build Directory (for debugging)
+        working-directory: colby-person
         run: ls -la build
 
       - name: Deploy to Firebase Hosting for Preview
+        working-directory: colby-person
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
