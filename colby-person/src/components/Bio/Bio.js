@@ -16,12 +16,11 @@ function Bio() {
                   Hello! I'm Colby Person, a passionate Software Engineer with a strong dedication for
                    coding and an insatiable curiosity for learning new technologies.
                   I find myself daily seeking more ways to create, learn, and develop new ideas and projects.
-                  I thrive in team environments and aspire to always take great leadership when I
-                  am called upon for it.
+                  I thrive in team environments and aspire to always provide great leadership when I am called upon.
               </p>
               <p className="bio-description">
               There is no challenge without a solution, and no task too big; for my aspirations
-                  climb too high!
+                  aim high!
               </p>
               <h2 className="section-title">Personal Motto: </h2>
               <p className="motto">"Strive to impress and be the best"</p>
