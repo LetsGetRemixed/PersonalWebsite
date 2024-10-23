@@ -7,6 +7,8 @@ const Projectsdata = [
         type: "Class Project",
         class: "Software Engineering Project 4398",
         members: 3,
+        showcaseImage1: '/images/9commerce/9commercehome.png',
+        showcaseImage2: '/images/9commerce/9commerceshop.png',
         images: [
             '/images/9commerce/9commercehome.png',
             '/images/9commerce/9commerceshop.png',
@@ -23,6 +25,8 @@ const Projectsdata = [
         type: "Class Project",
         class: "Intro To Computer Vision 4337 ",
         members: 2,
+        showcaseImage1: '/images/pokescan/pokescan4.png',
+        showcaseImage2: '/images/pokescan/pokescan3.jpg',
         images: [
             '/images/pokescan/pokescan1.jpg',
             '/images/pokescan/pokescan2.png',
@@ -39,6 +43,8 @@ const Projectsdata = [
         type: "Class Project",
         class: "Software Engineering 3398",
         members: 4,
+        showcaseImage1: '/images/jumblepack/jumbleMenu.png',
+        showcaseImage2: '/images/jumblepack/jumblePong.png',
         images: [
             '/images/jumblepack/jumbleMenu.png',
             '/images/jumblepack/jumblePong.png',
@@ -54,6 +60,8 @@ const Projectsdata = [
         type: "Class Project",
         class: "Human Factors 4326",
         members: 4,
+        showcaseImage1: '/images/mindmi/mindmicalendar.png',
+        showcaseImage2: '/images/mindmi/mindmijournal.png',
         images: [
             '/images/mindmi/mindmicalendar.png',
             '/images/mindmi/mindmijournal.png',
@@ -63,15 +71,16 @@ const Projectsdata = [
     },
     {
         id: 30,
-        title: "Clean Power Pro Website",
-        description: "A website for financial consulting to help clients get estimates using the Tax Caluclator and contact options to reach out for consulting",
-        type: "Job Assignment",
-        class: "Clean Power Pro",
+        title: "Colby's Meme Generator",
+        description: "An app that allows users to upload images and generate memes, along with an api for calling the meme generator.",
+        type: "Personal Project",
+        class: "",
         members: 2,
+        showcaseImage1: '/images/MemeGenerator/memegenerator.png',
+        showcaseImage2: '/images/MemeGenerator/memegen2.png',
         images: [
-            '/images/cleanpowerpro/cleanpowerheader.png',
-            '/images/cleanpowerpro/cleanpowercontact.png',
-            '/images/cleanpowerpro/cleanpowerfaq.png',
+            '/images/MemeGenerator/memegenerator.png',
+            '/images/MemeGenerator/memegen2.png',
             
         ],
         codeLink: "https://github.com/LetsGetRemixed/TaxWebsite"

@@ -4,7 +4,13 @@
 	    "./src/**/*.{js,jsx,ts,tsx}",
 	  ],
 	  theme: {
-	    extend: {},
+	    extend: {
+
+        fontFamily: {
+          'firacode': ['"Fira Code"', 'monospace'],
+        },
+
+      },
 	  },
 	  plugins: [],
 };
