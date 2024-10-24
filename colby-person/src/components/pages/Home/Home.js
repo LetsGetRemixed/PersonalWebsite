@@ -3,6 +3,7 @@ import Navbar from '../Universal/Navbar';
 import Header from './Header';
 import Projects from './Projects';
 import Resume from './Resume';
+import Footer from '../Universal/Footer';
 const Home = () => {
   return (
     <div className="font-firacode">
@@ -12,6 +13,7 @@ const Home = () => {
             <Projects />
             <Resume />
       </div>
+      <Footer />
     </div>
   );
 };
