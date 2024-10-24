@@ -93,13 +93,17 @@ function Projects() {
           {projectData.map((project, index) => (
             <div
               key={project.id}
-              className={`carousel-item cursor-pointer transform transition duration-700 hover:scale-105 ${
-                index === centerIndex ? 'z-10' : 'z-0'
+              className={`carousel-item cursor-pointer transform transition duration-700 ${
+                index === centerIndex 
+                  ? 'scale-110 z-10 font-extrabold text-white'
+                  : 'scale-90 opacity-75'
               }`}
               onClick={() => handleProjectClick(index)}
             >
               <div 
-                className="relative bg-gray-800 rounded-xl shadow-2xl overflow-hidden p-5"
+                className={`relative bg-gray-800 rounded-xl shadow-2xl overflow-hidden p-5 ${
+                  index === centerIndex ? 'border-4 border-teal-500' : ''
+                }`}
                 onClick={() => toggleImage(index)}
               >
                 {currentView[index] === 'before' ? (
@@ -143,6 +147,7 @@ function Projects() {
 }
 
 export default Projects;
+
 
 
 
