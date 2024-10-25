@@ -13,7 +13,7 @@ function ProjectsPage() {
   };
 
   return (
-    <div>
+    <div className="font-firacode">
       <Navbar />
       <div className="bg-gray-900 text-white py-10 px-4 md:px-20 min-h-screen pt-24 font-firacode relative">
         

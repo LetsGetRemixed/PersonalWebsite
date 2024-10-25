@@ -37,7 +37,7 @@ function SingleProject() {
   };
 
   return (
-    <div>
+    <div className="font-firacode">
       <Navbar />
       <div className="bg-gray-900 text-white py-10 pt-24 px-4 md:px-20 font-firacode">
         <div className="container mx-auto relative">

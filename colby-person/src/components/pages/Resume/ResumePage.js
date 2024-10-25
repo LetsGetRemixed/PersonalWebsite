@@ -4,7 +4,7 @@ import Navbar from '../Universal/Navbar';
 
 function ResumePage() {
   return (
-    <div>
+    <div className="font-firacode">
       <Navbar />
       <div className="bg-gray-900 text-white min-h-screen py-10 pt-24 px-4 md:px-20 font-firacode">
         <h1 className="text-4xl font-bold text-center mb-4">My Resume</h1>

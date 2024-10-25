@@ -31,9 +31,9 @@ function Footer() {
           <div className="text-sm mb-4 md:mb-0">
             <p>© {new Date().getFullYear()} Colby Person. All Rights Reserved.</p>
           </div>
-          <div className="flex space-x-4">
+          <div className="flex space-x-4 mb-4">
             <a href="mailto:colbyperson14@gmail.com" className="text-gray-300 hover:text-teal-400 transition">
-              <i className="bi bi-envelope-fill"></i> Email
+              <i className="bi bi-envelope-fill"></i> colbyperson14@gmail.com
             </a>
             <a href="https://github.com/LetsGetRemixed" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-teal-400 transition">
               <i className="bi bi-github"></i> GitHub
