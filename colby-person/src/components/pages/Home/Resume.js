@@ -1,12 +1,17 @@
 import React from 'react';
 
 function Resume() {
-  const handleDownload = () => {
-    window.open('/Resumeforwebsite.pdf', '_blank');
-  };
+    const handleDownload = () => {
+        const link = document.createElement('a');
+        link.href = '/Resumeforwebsite.pdf';
+        link.download = 'Colby_Person_Resume.pdf'; // Name of the downloaded file
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      };
 
   return (
-    <div className="bg-gray-800 text-white p-8 rounded-lg shadow-lg my-10">
+    <div className="bg-gray-800 text-white p-8 shadow-lg border-b-2">
       <h2 className="text-3xl font-bold mb-4 text-center">Resume Highlights</h2>
 
       {/* Main Flex Container */}
@@ -52,20 +57,20 @@ function Resume() {
           </div>
 
           {/* Buttons */}
-          <div className="flex justify-center md:justify-centerspace-x-6">
-            <button
-              onClick={handleDownload}
-              className="bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded-full transition"
-            >
-              Download Resume
-            </button>
-            <a
-              href="/resume"
-              className="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded-full transition"
-            >
-              View PDF
-            </a>
-          </div>
+<div className="flex justify-center md:justify-start space-x-6">
+  <button
+    onClick={handleDownload}
+    className="bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 px-4 w-40 rounded-full transition inline-flex items-center justify-center"
+  >
+    Download Resume
+  </button>
+  <a
+    href="/resume"
+    className="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 w-40 rounded-full transition inline-flex items-center justify-center"
+  >
+    View PDF
+  </a>
+</div>
         </div>
       </div>
     </div>

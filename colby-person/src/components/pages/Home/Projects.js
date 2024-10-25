@@ -85,7 +85,7 @@ function Projects() {
   };
 
   return (
-    <div className="bg-gray-900 py-10 relative overflow-hidden">
+    <div className="bg-gray-900 py-10 relative overflow-hidden border-b-2">
       <h2 className="text-4xl text-white text-center mb-12 font-bold">My Projects</h2>
 
       <div className="container mx-auto px-4">
@@ -134,13 +134,13 @@ function Projects() {
 
         {/* "View Project" Button */}
         <div className="flex justify-center mt-6">
-          <button
-            className="bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 px-6 rounded-full transition"
-            onClick={() => navigate(projectData[centerIndex].link)}
-          >
-            View Project
-          </button>
-        </div>
+  <button
+    className="bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 px-6 rounded-full transition"
+    onClick={() => navigate(`/project/${projectData[centerIndex].id}`)}
+  >
+    View Selected Project
+  </button>
+</div>
       </div>
     </div>
   );

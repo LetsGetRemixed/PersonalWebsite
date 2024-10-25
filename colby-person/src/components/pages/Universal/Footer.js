@@ -1,8 +1,9 @@
 import React from 'react';
+import { FaLinkedin } from 'react-icons/fa';
 
 function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-300 py-8">
+    <footer className="bg-gray-900 text-gray-300 py-8 border-t-2">
       <div className="container mx-auto px-4">
         {/* Top Section: Logo and Links */}
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start mb-6">
@@ -17,7 +18,8 @@ function Footer() {
             <a href="/" className="text-gray-300 hover:text-white transition">Home</a>
             <a href="/projects" className="text-gray-300 hover:text-white transition">Projects</a>
             <a href="/resume" className="text-gray-300 hover:text-white transition">Resume</a>
-            <a href="/contact" className="text-gray-300 hover:text-white transition">Contact</a>
+            <a href="/education" className="text-gray-300 hover:text-white transition">Education</a>
+            <a href="/bio" className="text-gray-300 hover:text-white transition">Bio</a>
           </div>
         </div>
 
@@ -36,9 +38,13 @@ function Footer() {
             <a href="https://github.com/LetsGetRemixed" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-teal-400 transition">
               <i className="bi bi-github"></i> GitHub
             </a>
-            <a href="https://www.linkedin.com/in/colby-person-51820930a/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-teal-400 transition">
-              <i className="bi bi-telephone-fill"></i> Linkedin
-            </a>
+                <a href="https://www.linkedin.com/in/colby-person-51820930a/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-gray-300 hover:text-teal-400 transition flex items-center">
+                <FaLinkedin className="text-xl mr-2" /> {/* LinkedIn Icon */}
+                LinkedIn
+                </a>
           </div>
         </div>
       </div>
