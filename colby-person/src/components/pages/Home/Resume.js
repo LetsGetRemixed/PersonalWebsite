@@ -3,7 +3,7 @@ import React from 'react';
 function Resume() {
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = '/Resumeforwebsite.pdf';
+        link.href = '/ColbyPersonResume.pdf';
         link.download = 'Colby_Person_Resume.pdf'; // Name of the downloaded file
         document.body.appendChild(link);
         link.click();
@@ -19,7 +19,7 @@ function Resume() {
         {/* PDF Preview Section */}
         <div className="w-full md:w-1/2 flex justify-center mb-6 md:mb-0">
           <iframe 
-            src="/Resumeforwebsite.pdf" 
+            src="/ColbyPersonResume.pdf" 
             className="w-11/12 h-96 md:h-[600px] border-0 rounded-lg shadow-md"
             title="Resume Preview"
           />

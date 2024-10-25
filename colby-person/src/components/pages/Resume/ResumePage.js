@@ -18,7 +18,7 @@ function ResumePage() {
         {/* PDF Preview Section */}
         <div className="flex justify-center mb-8">
           <iframe
-            src="/Resumeforwebsite.pdf"
+            src="/ColbyPersonResume.pdf"
             className="w-full max-w-4xl h-[800px] border-0 rounded-lg shadow-md"
             title="Resume Preview"
           />
@@ -27,14 +27,14 @@ function ResumePage() {
         {/* Action Buttons */}
         <div className="flex justify-center space-x-6">
           <a
-            href="/Resumeforwebsite.pdf"
+            href="/ColbyPersonResume.pdf"
             download="Colby_Person_Resume.pdf" // Name the file on download
             className="bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 px-6 rounded-full transition"
           >
             Download Resume
           </a>
           <a
-            href="/Resumeforwebsite.pdf"
+            href="/ColbyPersonResume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-6 rounded-full transition"
