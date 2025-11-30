@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "portfolio-95e65",
+    "site": "colbyperson.com",
     "public": "build",
     "ignore": [
       "firebase.json",
