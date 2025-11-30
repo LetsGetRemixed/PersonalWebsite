@@ -29,11 +29,11 @@ const Projectsdata = [
         description: "An educational commerce website that allows users to learn about brewing coffee, and finding the best projects.",
         type: "Business Endeavor",
         members: 2,
-        showcaseImage1: '/images/bestbrewessentials/bestbrewessentials.png',
-        showcaseImage2: '/images/bestbrewessentials/bestbrewessentials2.png',
+        showcaseImage1: '/images/BestBrewEssentials/bestbrewessentials.png',
+        showcaseImage2: '/images/BestBrewEssentials/bestbrewessentials2.png',
         images: [
-            '/images/bestbrewessentials/bestbrewessentials.png',
-            '/images/bestbrewessentials/bestbrewessentials2.png',
+            '/images/BestBrewEssentials/bestbrewessentials.png',
+            '/images/BestBrewEssentials/bestbrewessentials2.png',
         ],
         websiteurl: "https://bestbrewessentials.com",
         features: [
