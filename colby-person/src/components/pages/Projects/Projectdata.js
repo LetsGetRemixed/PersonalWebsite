@@ -1,6 +1,117 @@
 // projectsData.js
 const Projectsdata = [
     {
+        id: "8",
+        title: "CJP Web",
+        description: "My company web development website showcasing professional web development services and portfolio.",
+        type: "Business Endeavor",
+        members: 1,
+        showcaseImage1: '/images/Cjpweb/cjpweb.png',
+        showcaseImage2: '/images/Cjpweb/cjpweb2.png',
+        images: [
+            '/images/Cjpweb/cjpweb.png',
+            '/images/Cjpweb/cjpweb2.png',
+            '/images/Cjpweb/cjpweb3.png',
+            '/images/Cjpweb/cjpweb4.png',
+        ],
+        websiteurl: "https://cjpweb.com",
+        features: [
+            "Contact Form: Integrated contact form with EmailJS for seamless client communication.",
+            "Security: CAPTCHA integration to prevent spam and ensure secure form submissions.",
+            "Portfolio Showcase: Display of web development projects and services offered.",
+            "Firebase Integration: Backend services powered by Firebase for reliable data management."
+        ],
+        technologies: ["JavaScript", "Firebase", "CAPTCHA", "EmailJS"]
+    },
+    {
+        id: "5",
+        title: "Best Brew Essentials",
+        description: "An educational commerce website that allows users to learn about brewing coffee, and finding the best projects.",
+        type: "Business Endeavor",
+        members: 2,
+        showcaseImage1: '/images/bestbrewessentials/bestbrewessentials.png',
+        showcaseImage2: '/images/bestbrewessentials/bestbrewessentials2.png',
+        images: [
+            '/images/bestbrewessentials/bestbrewessentials.png',
+            '/images/bestbrewessentials/bestbrewessentials2.png',
+        ],
+        websiteurl: "https://bestbrewessentials.com",
+        features: [
+            "Educational Content: Provides educational content about brewing coffee, and finding the best projects.",
+            "Product Recommendations: Recommends products for brewing coffee, and finding the best projects.",
+            "Community: A community of coffee enthusiasts to share their experiences and tips.",
+        ],
+        technologies: ["React", "Next.js", "Tailwind CSS", "Amazon Product API", "Firebase"]
+    },
+    {
+        id: "6",
+        title: "CJP Web Studio",
+        description: "My company studio site created for multiple experiences and coding exercises. Features interactive applications including Tetris, GitHub profile stat viewer, and other personal management applications.",
+        type: "Personal Project",
+        members: 1,
+        showcaseImage1: '/images/cjpstudio/cjpstudio1.png',
+        showcaseImage2: '/images/cjpstudio/cjpstudio2.png',
+        images: [
+            '/images/cjpstudio/cjpstudio1.png',
+            '/images/cjpstudio/cjpstudio2.png',
+            '/images/cjpstudio/cjpstudio3.png',
+        ],
+        websiteurl: "https://cjpwebstudio.com",
+        features: [
+            "Tetris Game: A fully functional Tetris game with classic gameplay mechanics.",
+            "GitHub Profile Stat Viewer: View and analyze GitHub profile statistics and contributions.",
+            "Personal Management Applications: Various tools and applications for personal productivity and management.",
+            "Multiple Coding Exercises: A collection of coding exercises and interactive experiences showcasing different programming concepts."
+        ],
+        technologies: ["React", "Typescript", "Tailwind CSS", "HTML", "Supabase"]
+    },
+    {
+        id: "7",
+        title: "Bold Hair Co",
+        description: "An ecommerce hair extension site built for stylists with license authorization, subscriptions, Google Maps API for stylist finder, and a deep in-depth admin dashboard with over 50 features and over 20 pages.",
+        type: "Business Endeavor",
+        members: 1,
+        showcaseImage1: '/images/boldhairco/bold1.png',
+        showcaseImage2: '/images/boldhairco/bold2.png',
+        images: [
+            '/images/boldhairco/bold1.png',
+            '/images/boldhairco/bold2.png',
+            '/images/boldhairco/bold3.png',
+        ],
+        websiteurl: "https://boldhairco.com",
+        features: [
+            "License Authorization: Secure license verification system for stylists to verify their credentials.",
+            "Subscription Management: Comprehensive subscription system for stylists with different membership tiers.",
+            "Stylist Finder: Google Maps API integration allowing customers to find stylists in their area.",
+            "Admin Dashboard: Deep in-depth admin dashboard with over 50 features and over 20 pages for complete site management.",
+            "Ecommerce Platform: Full-featured ecommerce system for hair extensions with shopping cart, checkout, and order management."
+        ],
+        technologies: ["JavaScript", "Express", "MongoDB", "Firebase"]
+    },
+    {
+        id: "9",
+        title: "Bold Moves Media & Marketing",
+        description: "A media and marketing agency website designed for lead captures, showcasing brand strategy, content production, social media services, and paid advertising campaigns.",
+        type: "Business Endeavor",
+        members: 1,
+        showcaseImage1: '/images/boldmedia/boldmedia1.png',
+        showcaseImage2: '/images/boldmedia/boldmedia2.png',
+        images: [
+            '/images/boldmedia/boldmedia1.png',
+            '/images/boldmedia/boldmedia2.png',
+            '/images/boldmedia/boldmedia3.png',
+            '/images/boldmedia/boldmedia4.png',
+        ],
+        websiteurl: "https://boldmovesinc.com",
+        features: [
+            "Lead Capture System: Comprehensive lead capture forms and contact systems to convert visitors into clients.",
+            "Service Showcase: Display of media and marketing services including brand strategy, content production, and social media management.",
+            "Portfolio Display: Showcase of video production, brand films, and creative campaigns.",
+            "Contact & Quote Forms: Integrated forms for client inquiries and quote requests with Firebase backend."
+        ],
+        technologies: ["TypeScript", "Firebase"]
+    },
+    {
         id: "1",
         title: "9 COMMERCE",
         description: "An ecommerce website designed for users to create an account, shop through items, securely checkout, and includes an admin dashboard for inventory and order management.",

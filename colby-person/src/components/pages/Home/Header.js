@@ -22,11 +22,48 @@ function Header() {
           Software Engineer
         </p>
         <p className="text-lg text-gray-400 font-firacode mb-2">
-          Strong Passion for Coding.
+          Coding Digital Excellence.
         </p>
         <p className="text-lg text-gray-400 font-firacode">
-          Innovate, Learn, and Excel.
+          One Line at a Time.
         </p>
+
+        {/* Website Links */}
+        <div className="flex justify-center space-x-6 mt-6 mb-4">
+          <a 
+            href="https://cjpweb.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-teal-400 hover:text-teal-300 font-firacode text-lg transition transform hover:scale-105 underline decoration-2 underline-offset-4"
+          >
+            cjpweb.com
+          </a>
+          <span className="text-gray-500">|</span>
+          <a 
+            href="https://cjpwebstudio.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-teal-400 hover:text-teal-300 font-firacode text-lg transition transform hover:scale-105 underline decoration-2 underline-offset-4"
+          >
+            cjpwebstudio.com
+          </a>
+        </div>
+
+        {/* Statistics */}
+        <div className="flex flex-wrap justify-center gap-6 md:gap-8 mt-6 mb-4">
+          <div className="text-center">
+            <div className="text-2xl md:text-3xl font-bold text-teal-400 font-firacode">150K+</div>
+            <div className="text-sm md:text-base text-gray-300 font-firacode">Lines of Code</div>
+          </div>
+          <div className="text-center">
+            <div className="text-2xl md:text-3xl font-bold text-teal-400 font-firacode">50+</div>
+            <div className="text-sm md:text-base text-gray-300 font-firacode">GitHub Repos</div>
+          </div>
+          <div className="text-center">
+            <div className="text-2xl md:text-3xl font-bold text-teal-400 font-firacode">5+</div>
+            <div className="text-sm md:text-base text-gray-300 font-firacode">Years Experience</div>
+          </div>
+        </div>
 
        {/* Social Media Icons */}
             <div className="flex justify-center space-x-10 mt-8">

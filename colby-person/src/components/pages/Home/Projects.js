@@ -120,8 +120,15 @@ function Projects() {
                   />
                 )}
                 <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black via-black/60 to-transparent p-4">
-                  <h3 className="text-2xl font-bold text-white">{project.title}</h3>
-                  <p className="text-sm text-gray-300">{project.description}</p>
+                  <h3 
+                    className="text-2xl font-bold text-white cursor-pointer hover:text-teal-400 transition"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      navigate(`/project/${project.id}`);
+                    }}
+                  >
+                    {project.title}
+                  </h3>
                 </div>
               </div>
             </div>
@@ -132,15 +139,21 @@ function Projects() {
         <CustomPrevArrow />
         <CustomNextArrow />
 
-        {/* "View Project" Button */}
-        <div className="flex justify-center mt-6">
-  <button
-    className="bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 px-6 rounded-full transition"
-    onClick={() => navigate(`/project/${projectData[centerIndex].id}`)}
-  >
-    View Selected Project
-  </button>
-</div>
+        {/* "View Project" Buttons */}
+        <div className="flex justify-center gap-4 mt-6">
+          <button
+            className="bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 px-6 rounded-full transition"
+            onClick={() => navigate(`/project/${projectData[centerIndex].id}`)}
+          >
+            View Selected Project
+          </button>
+          <button
+            className="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-6 rounded-full transition"
+            onClick={() => navigate('/projects')}
+          >
+            View All Projects
+          </button>
+        </div>
       </div>
     </div>
   );

@@ -46,10 +46,10 @@ function Resume() {
             <div className="p-4 bg-gray-700 rounded-md shadow mt-4">
               <h3 className="text-xl font-semibold">Experience</h3>
               <ul className="list-disc list-inside text-gray-400">
-                <li>4+ Years in Software Development</li>
+                <li>5+ Years in Software Development</li>
                 <li>Projects ranging from small apps to full-scale systems</li>
                 <li>Experience leading development teams</li>
-                <li>Founded Website Company with 1 other developer</li>
+                <li>Founded Multiple Businesses</li>
               </ul>
             </div>
 
