@@ -34,5 +34,5 @@ jobs:
         working-directory: colby-person/build
 
       - name: Deploy to Firebase Hosting
-        run: firebase deploy --only hosting --token ${{ secrets.FIREBASE_TOKEN }}
+        run: firebase deploy --only hosting:portfolio-95e65 --token ${{ secrets.FIREBASE_TOKEN }}
         working-directory: colby-person
